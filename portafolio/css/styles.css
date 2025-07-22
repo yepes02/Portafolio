@@ -1,0 +1,50 @@
+body{
+    background-color: #1f2123;       
+    color: white;
+    text-align: center;
+
+}
+
+button {    
+    background-color: #5a497d;
+    color: white;  
+    padding-bottom: 13px;
+    border-radius: 10px;   
+    cursor: pointer; 
+    
+}
+
+h1{
+    margin-top: 15cap;
+    font-size: 14px; 
+       
+}
+
+
+.icono {
+  display: inline-block;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.contenedor-izquierda {
+  display: flex;
+  flex-direction: column;  /* 🔑 Apila verticalmente */
+  align-items: flex-start; /* 🔑 Alinea a la izquierda */
+  gap: 3cap;               /* Espacio entre íconos */
+  margin-left: 17cap;       /* Opcional, para empujar desde el borde */
+}
+.contenedor-izquierda{
+    margin-right: 80cap;
+    margin-top: 5cap;
+}
+
+h2{
+    font-size: 100px;
+    margin-top: 50px;     
+    background: linear-gradient(1deg, #966893, #2db7c3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;    
+}
